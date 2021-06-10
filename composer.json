@@ -1,0 +1,13 @@
+{
+    "name" : "curso/php-mvc",
+    "description": "Curso MVC com PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^1.0",
+        "codeguy/upload": "^1.3"
+    }
+}
